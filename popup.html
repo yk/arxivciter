@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Arxiv Citer</title>
+    <style>
+    body {
+        background: white;
+        font-size: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 120%;
+    }
+
+    .authors {
+        color: green;
+        font-size: 80%;
+        margin-bottom: 1em;
+    }
+
+    .force-select {
+        user-select: all;
+        min-width: 30em;
+    }
+
+    #citebutton {
+        display: block;
+        font-size: 200%;
+        border-radius: 5px;
+        background-color: lightgray;
+    }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <button id="citebutton">Cite</button>
+  </body>
+</html>

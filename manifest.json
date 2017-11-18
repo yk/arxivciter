@@ -1,0 +1,14 @@
+{
+  "name": "Arxiv Citer",
+  "description": "Cite Arxiv Stuff",
+  "version": "0.1",
+  "permissions": [
+    "tabs", "https://arxiv.org/*", "https://scholar.google.com/scholar", "https://scholar.googleusercontent.com/scholar.bib"
+  ],
+  "browser_action": {
+      "default_title": "Cite this Paper",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
